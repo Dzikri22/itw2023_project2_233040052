@@ -1,0 +1,40 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffeadd !important;
+}
+
+.hero {
+  background: linear-gradient(to bottom, rgba(31, 23, 23, 1), rgba(0, 0, 0, 0)),
+    url("../assets/hero.jpg");
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card-img-top {
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 575.98px) {
+  .about > .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about > img {
+    width: 300px !important;
+  }
+
+  .food > .container > div {
+    flex-direction: column;
+  }
+
+  .partner > .container > div {
+    flex-direction: column;
+  }
+}
